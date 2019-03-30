@@ -68,6 +68,8 @@ gnuradio!_
 ### Building and Installing osmocom GNURadio Blocks
 1. Install hackRF library: 
     * `brew install hackrf`
+    * `pip install pyside2`
+    * `conda install ipython`
 1. Clone osmocom repository:
     * `git clone git://git.osmocom.org/gr-osmosdr`
 2. Edit CMakeLists.txt file and make following changes:
